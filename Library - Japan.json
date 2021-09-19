@@ -1,0 +1,1572 @@
+{
+  "catalogue": {
+    "name": "Library - Japan",
+    "id": "eb20-af19-e6aa-c24f",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0a75-76ce-f956-7a9d",
+    "gameSystemRevision": 1,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "sharedInfoGroups": [
+      {
+        "name": "Basic Infantry Small Arms",
+        "id": "f0b3-6f37-bcd0-2d22",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Type 99 Arisaka (Rifle)", "id": "6758-7f80-75ee-79c8", "hidden": false, "targetId": "833f-4d76-9465-5596", "type": "profile"},
+          {"name": "Type 100 (SMG)", "id": "e9d6-3d83-2a3d-8dfa", "hidden": false, "targetId": "5024-a8b1-1514-aad4", "type": "profile"}
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Type 94 Tankette",
+        "id": "8fed-0796-27cf-e925",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "-", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 97 Te-Ke",
+        "id": "3db1-d4b7-2f5a-ba30",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "13", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "9", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 89 I-Go",
+        "id": "d927-9949-b906-4eba",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "5", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "8", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "Unreliable", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "10", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 95 Ha-Go",
+        "id": "60bf-a3df-54dc-a031",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "10", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "14", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "1 man turret", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "12", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 98 Ke-Ni",
+        "id": "afa9-91f1-49f6-a240",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "11", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "15", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "12", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 2 Ke-To",
+        "id": "0e29-6de4-b410-8e93",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "11", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "15", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "12", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 2 Ka-Mi",
+        "id": "abcd-0dfb-7dcb-7a91",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "8", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "11", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "1 man turret\namphibious", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "12", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 97 Chi-Ha",
+        "id": "278a-1020-8fb0-8745",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "L", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "M", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "N", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "10", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 97 Shinhoto Chi-Ha",
+        "id": "8e57-b3f9-4ba8-0d7a",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "L", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "M", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "N", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "10", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 91 Sumi-Da",
+        "id": "808e-6711-9d54-895b",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "8", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "16", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "-", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 93",
+        "id": "5201-1528-24c1-54d7",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "O", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "8", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "16", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "-", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 1 Ho-Ni I",
+        "id": "259c-fe59-591a-73d0",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "L", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "M", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "N", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "Open-Topped", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "5", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 1 Ho-Ni II",
+        "id": "fd1d-bcd9-b845-7408",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "L", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "M", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "N", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "Open-Topped", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "2", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 4 Ho-Ro",
+        "id": "0ca7-51d6-e538-3231",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "L", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "M", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "N", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "Open-Topped", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "3", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 96 SS-Ki",
+        "id": "02a7-1429-e51c-e056",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "N", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "8", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "Bridging\nEngineer", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "4", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 1 Ho-Ki",
+        "id": "5b09-8837-da0a-fdd9",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "O", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "13", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "Open-Topped", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "-", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 1 Ho-Ha",
+        "id": "d362-d790-bc8a-c12b",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "N", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "12", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "16", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "Open-Topped", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "-", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "Type 98 So-Da",
+        "id": "10b3-6bd1-b24f-54cf",
+        "hidden": false,
+        "typeId": "2b3e-d39e-72f5-a9a2",
+        "typeName": "Armored Vehicle",
+        "characteristics": [
+          {"name": "Armor - Front", "$text": "O", "typeId": "f03f-8784-ea22-a0db"},
+          {"name": "Armor - Side", "$text": "O", "typeId": "5c7c-d368-1584-0078"},
+          {"name": "Armor - Rear", "$text": "O", "typeId": "192d-9b21-0a20-6e22"},
+          {"name": "Movement - Off-Road", "$text": "10", "typeId": "e089-d550-6ddf-d6b2"},
+          {"name": "Movement - Road", "$text": "14", "typeId": "968e-f708-5851-99dd"},
+          {"name": "Movement - Special", "$text": "-", "typeId": "13df-7dca-cc44-169d"},
+          {"name": "Ammo Capacity (Primary)", "$text": "-", "typeId": "427a-8333-e329-d8de"}
+        ]
+      },
+      {
+        "name": "20mmL70",
+        "id": "f8d3-3c11-f43c-f74a",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE / AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "-", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "AP 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "AP 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "AP 1", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "AP 1", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "AP 1", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "25mmL60",
+        "id": "f620-8a9d-6ec2-a589",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE / AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "-", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "AP 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "AP 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "AP 1", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "AP 1", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "AP 1", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Type 89 50mm Light Mortar",
+        "id": "b53f-0a2d-c94e-3c59",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "3 / 5+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Min Rng. 5\" / Max Rng. 30\"", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 1", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 1", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 1", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "-", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "-", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Type 97 81mm Medium Mortar",
+        "id": "1fd0-d28e-a334-950b",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "4 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Min Rng 10\" / Max Rng 90\"", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "-", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "HE 2", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Type 94 90mm Medium Mortar",
+        "id": "acfd-e4e1-2149-d667",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "5 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Min Rng 10\" / Max Rng 90\"", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "-", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "HE 2", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Type 96 150mm Heavy Mortar",
+        "id": "373c-b3b8-5ed0-332d",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Medium HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "5 / 3+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Min Rng 15\" / Max Rng 240\"", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "-", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 4", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 4", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 4", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 4", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "HE 4", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Type 98 320mm Heavy Mortar",
+        "id": "8eba-ab3f-a938-6d56",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Heavy HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "10 / 2+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Min Rng 15\" / Max Rng 240\"", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "-", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 10", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 10", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 10", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 10", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "HE 10", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Type 97 20mm AT Rifle",
+        "id": "fe7f-cdfb-4842-670c",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "-", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "AP 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "AP 1", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "-", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "-", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "-", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "37mmL36",
+        "id": "098b-6381-ce40-aa3a",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE / AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "2 / 5+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Turret", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 1 / AP 3", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 1 / AP 3", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 1 / AP 2", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 1 / AP 1", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 1 / AP 1", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "37mmL46",
+        "id": "3131-7413-d5c6-5bdb",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE / AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "2 / 5+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Turret", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 1 / AP 4", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 1 / AP 4", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 1 / AP 3", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 1 / AP 2", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 1 / AP 1", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "45mmL48",
+        "id": "a0e0-6695-ae69-6b27",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE / AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "3 / 5+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Turret", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 2 / AP 5", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2 / AP 5", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2 / AP 4", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2 / AP 3", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2 / AP 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "57mmL18",
+        "id": "fa2f-da5e-c085-bca5",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE / AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "4 / 5+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Turret", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 2 / AP 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2 / AP 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2 / AP 1", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2 / AP 1", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2 / AP 1", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "70mmL11",
+        "id": "17b6-9385-8b79-7ff5",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "3 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "75mmL18",
+        "id": "b342-9baa-b1a0-1bbb",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "3 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "75mmL21",
+        "id": "3daa-2a40-dd18-16f1",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "4 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "75mmL31",
+        "id": "88e8-5ad0-aedc-f8ce",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "4 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 2", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "75mmL38",
+        "id": "e1b5-8da7-da9b-3a98",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "4 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Hull", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 3", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 3", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 3", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 3", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 3", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "75mmL44",
+        "id": "e9b4-ac0c-fbdf-76fa",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "4 / 4+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 4", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 4", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 4", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 4", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 4", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "105mmL24",
+        "id": "8fbc-94d6-3825-03b3",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Medium HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "5 / 3+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Hull", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 3", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 3", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 3", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 3", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 3", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "120mmL45",
+        "id": "5e01-1d38-fc4f-fa46",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Medium HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "6 / 3+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 4", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 4", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 4", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 4", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 4", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "150mmL14",
+        "id": "8748-4415-de0c-6d87",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Medium HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "7 / 3+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Hull", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 5", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 5", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 5", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 5", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 5", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "150mmL40",
+        "id": "81f2-2874-225f-9256",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Medium HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "7 / 3+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 4", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 4", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 4", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 4", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 4", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "8\" Howitzer",
+        "id": "0af7-bdf8-949f-0bee",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Heavy HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "7 / 2+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 7", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 7", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 7", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 7", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 7", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "HE 7", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "200mmL40",
+        "id": "60f2-18cd-1c97-4e55",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Heavy HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "7 / 2+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 7", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 7", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 7", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 7", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 7", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "HE 7", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "200mm Rocket",
+        "id": "c193-fd78-f9cc-3d7e",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "Heavy HE", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "6 / 2+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "-", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 5", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 5", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 5", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 5", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 5", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "HE 5", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Type 97 Motorcycle",
+        "id": "5f42-6cf3-44d5-5457",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "6", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "24", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "1", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "1", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Type 95 Kurogane",
+        "id": "62d9-7226-9939-d628",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "6", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "24", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "2", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "3", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "$text": "-", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Type 94 Truck",
+        "id": "3332-101b-c9df-dcb6",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "6", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "24", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "3", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "12", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Type 97 Truck",
+        "id": "534d-e7c2-aaca-a8e5",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "6", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "24", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "3", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "14", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Nissan 80 / 180 truck",
+        "id": "2d17-d591-2c0a-0029",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "6", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "24", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "3", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "16", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Type 94 Yo-Ke",
+        "id": "23bc-3ac6-cebb-c95a",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "3", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "1 light gun", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Type 98 Shi-Ke",
+        "id": "322e-ff91-6cb8-9da1",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "3", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "1 light gun", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Type 98 Ro-Ke",
+        "id": "223f-3bc1-19ae-d894",
+        "hidden": false,
+        "typeId": "6e73-f403-d9c9-a941",
+        "typeName": "Soft Skin Vehicle",
+        "characteristics": [
+          {"name": "Movement - Off-Road", "$text": "9", "typeId": "217e-e3a8-2912-2a45"},
+          {"name": "Movement - Road", "$text": "12", "typeId": "ace7-f938-5dbf-8054"},
+          {"name": "Hits", "$text": "4", "typeId": "a689-65f7-5e80-6f7e"},
+          {"name": "Transport Capacity", "$text": "1 medium gun", "typeId": "5e82-8684-8ca0-2ebe"},
+          {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+        ]
+      },
+      {
+        "name": "Conscript Rifle Squad",
+        "id": "5be7-3e7e-bfca-7b1b",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "7 men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Auxiliary", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Type 96 (Light MG)",
+        "id": "275b-2885-7cb7-a2da",
+        "hidden": false,
+        "typeId": "119d-02c5-95d4-335f",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "RoF", "$text": "2", "typeId": "2d56-eb64-9470-0f5d"},
+          {"name": "Mount", "$text": "-", "typeId": "9232-fba5-5060-6bf8"},
+          {"name": "Crew", "$text": "1", "typeId": "1dce-ea23-a156-6c8a"},
+          {"name": "Special", "$text": "-", "typeId": "3218-b22a-6f97-8774"},
+          {"name": "Max Range", "$text": "30\"", "typeId": "442b-2a41-2e42-ff51"}
+        ]
+      },
+      {
+        "name": "Type 99 Arisaka (Rifle)",
+        "id": "833f-4d76-9465-5596",
+        "hidden": false,
+        "typeId": "119d-02c5-95d4-335f",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "RoF", "$text": "1", "typeId": "2d56-eb64-9470-0f5d"},
+          {"name": "Mount", "$text": "-", "typeId": "9232-fba5-5060-6bf8"},
+          {"name": "Crew", "$text": "-", "typeId": "1dce-ea23-a156-6c8a"},
+          {"name": "Special", "$text": "-", "typeId": "3218-b22a-6f97-8774"},
+          {"name": "Max Range", "$text": "30\"", "typeId": "442b-2a41-2e42-ff51"}
+        ]
+      },
+      {
+        "name": "Type 100 (SMG)",
+        "id": "5024-a8b1-1514-aad4",
+        "hidden": false,
+        "typeId": "119d-02c5-95d4-335f",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "RoF", "$text": "1", "typeId": "2d56-eb64-9470-0f5d"},
+          {"name": "Mount", "$text": "-", "typeId": "9232-fba5-5060-6bf8"},
+          {"name": "Crew", "$text": "-", "typeId": "1dce-ea23-a156-6c8a"},
+          {
+            "name": "Special",
+            "$text": "One infantryman per squad can be equipped with an SMG.  In an Infantry Assault order (5\"), they count as having RoF 2.",
+            "typeId": "3218-b22a-6f97-8774"
+          },
+          {"name": "Max Range", "$text": "10\"", "typeId": "442b-2a41-2e42-ff51"}
+        ]
+      },
+      {
+        "name": "Type 92 (Heavy MG)",
+        "id": "b4bf-d377-ee18-8ba0",
+        "hidden": false,
+        "typeId": "119d-02c5-95d4-335f",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "RoF", "$text": "5", "typeId": "2d56-eb64-9470-0f5d"},
+          {"name": "Mount", "$text": "-", "typeId": "9232-fba5-5060-6bf8"},
+          {"name": "Crew", "$text": "2", "typeId": "1dce-ea23-a156-6c8a"},
+          {"name": "Special", "$text": "-", "typeId": "3218-b22a-6f97-8774"},
+          {"name": "Max Range", "$text": "30\"", "typeId": "442b-2a41-2e42-ff51"}
+        ]
+      },
+      {
+        "name": "Type 100 Flamethrower",
+        "id": "5295-a0b4-f67f-9b79",
+        "hidden": false,
+        "typeId": "119d-02c5-95d4-335f",
+        "typeName": "Small Arms",
+        "characteristics": [
+          {"name": "RoF", "$text": "10", "typeId": "2d56-eb64-9470-0f5d"},
+          {"name": "Mount", "$text": "-", "typeId": "9232-fba5-5060-6bf8"},
+          {"name": "Crew", "$text": "-", "typeId": "1dce-ea23-a156-6c8a"},
+          {"name": "Special", "$text": "Open Cover Save", "typeId": "3218-b22a-6f97-8774"},
+          {"name": "Max Range", "$text": "5\"", "typeId": "442b-2a41-2e42-ff51"}
+        ]
+      },
+      {
+        "name": "Amphibious Rifle Section",
+        "id": "b63e-6369-4766-f8d5",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "7 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Assault Troops, Elite", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Infantry Platoon Command Squad",
+        "id": "a0a7-3c3c-45fa-40a0",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Officer, Mortar Spotter", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Rifle Section (7)",
+        "id": "f26b-e13b-7ca5-5472",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "7 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Grenade Launcher Battery (9)",
+        "id": "9ec4-5257-2a5b-eb72",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "9 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Heavy Machine Gun Team",
+        "id": "f317-7126-69b7-9a9f",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Infantry Gun Team",
+        "id": "baed-a553-0d0b-03b5",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Anti-Tank Gun Team",
+        "id": "393e-2990-91c5-3859",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Demolition Team",
+        "id": "8464-85c4-aedc-ecb8",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Nikaku", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Anti-Tank Team",
+        "id": "e579-085d-dd95-9f46",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Nikaku", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Grenade Launcher Battery (10)",
+        "id": "1061-e200-4156-2ee9",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "10 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Rifle Section (6)",
+        "id": "cac4-1ea2-e746-2ae8",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "6 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Light Machine Gun Team",
+        "id": "bff7-532d-2e96-a2f4",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "5 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Forward Headquarters",
+        "id": "6dd2-77a5-5587-f6d6",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Senior Officer, Elite, Artillery Spotter, Unique", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Kempeitai Officer",
+        "id": "9257-de70-fad6-6037",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Senior Officer, Fight Damn You!, Elite, Unique", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Anti-Tank Rifle Team",
+        "id": "70d4-cec4-d061-08c3",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Unique", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "47mmL48",
+        "id": "7fc5-ac81-ba08-b0ec",
+        "hidden": false,
+        "typeId": "f961-a26c-5110-32f8",
+        "typeName": "Primary Weapon",
+        "characteristics": [
+          {"name": "HE Group / Ammo", "$text": "V.Light HE / AP", "typeId": "fe8e-c0ef-9e44-a741"},
+          {"name": "HE Effect", "$text": "3 / 5+", "typeId": "e58f-cc42-16f4-3638"},
+          {"name": "Mount", "$text": "Turret", "typeId": "1230-d9cb-2cf7-7d7e"},
+          {"name": "Rng 0-10\"", "$text": "HE 2 / AP 5", "typeId": "805b-70a6-4f6f-c788"},
+          {"name": "Rng 10-20\"", "$text": "HE 2 / AP 5", "typeId": "f0a9-c40f-687a-5df4"},
+          {"name": "Rng 20-30\"", "$text": "HE 2 / AP 4", "typeId": "9f66-1c3f-e3d4-3272"},
+          {"name": "Rng 30-40\"", "$text": "HE 2 / AP 3", "typeId": "2086-a3d3-0c4d-da50"},
+          {"name": "Rng 40-50\"", "$text": "HE 2 / AP 2", "typeId": "5d14-a1b4-1118-2f5a"},
+          {"name": "Rng 50-70\"", "$text": "-", "typeId": "344d-8655-b175-1aae"}
+        ]
+      },
+      {
+        "name": "Spider Hole",
+        "id": "cd11-b155-7a4a-7f9c",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "1 Man", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Elite, Hidden, Nikaku", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Motorcycle HMG Team",
+        "id": "3830-cb7b-4077-6e78",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Scout", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Infantry Patrol",
+        "id": "8d87-891b-8edf-26d0",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "6 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Scout, Assault Troops", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Motorised Patrol",
+        "id": "b44a-e050-86d4-fcd6",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Scout, Mortar Spotter", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Pioneer Squad",
+        "id": "4381-b3e1-2fee-9d78",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "7 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Engineers, Elite, Assault Troops", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Flamethrower Team",
+        "id": "4433-b354-6904-f6b4",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Elite", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Penal Labour Squad",
+        "id": "9eaf-4971-88db-6f36",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "12 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Officer, Engineers, Auxiliary, Unarmed", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Light Bridging Unit",
+        "id": "07f9-6ee5-1a9a-6adc",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "6 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Bridging", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Light Repair Unit",
+        "id": "b099-9c26-5b37-4802",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Vehicle Repair", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Supply Team",
+        "id": "4525-2743-4a6e-cdbf",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "1 Man", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Resupply", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "2 Mules or Bullocks",
+        "id": "6837-ad9e-0108-ca3f",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Mules or Bullocks", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "INA Platoon Command Squad",
+        "id": "a117-579b-7168-b834",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Officer", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "INA Rifle Section",
+        "id": "e117-3c7e-909b-3cdf",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "6 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "INA Light MG Section",
+        "id": "0806-ccab-da93-0425",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "5 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "-", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Amphibious Platoon Command Squad",
+        "id": "5087-e6a0-d448-fe88",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Officer, Mortar Spotter", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Last Remnants Command Squad",
+        "id": "a3a0-5c9b-30c1-c589",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Officer, Assault Troops, Elite", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Last Remnants Rifle Squad",
+        "id": "bec2-fa28-fd70-ffcc",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "7 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Assault Troops, Elite", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Unarmed Squad",
+        "id": "bca5-a2eb-858f-3e91",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "2D6 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Assault Troops, Elite, Nikaku, Unarmed", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "Suicide Assault Squad",
+        "id": "d3b8-ac9d-9592-ccd3",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "3 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Assault Troops, Elite, Unarmed, Hidden, Nikaku", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      },
+      {
+        "name": "'Nikaku' Suicide Bomber",
+        "id": "8c98-d8a5-e7d2-561e",
+        "hidden": false,
+        "typeId": "1b37-2675-2a04-215e",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Unit Composition", "$text": "1 Man", "typeId": "c321-2ee9-f9a5-5ad5"},
+          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+          {"name": "Special Rules", "$text": "Assault Troops, Elite, Unarmed, Hidden, Nikaku", "typeId": "7388-c72e-b747-11b2"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Lunge Mine",
+        "id": "9bed-9701-35bf-7753",
+        "description": "An infantry unit equipped with a Lunge Mine can be given the Infantry Close Assault order to attempt an attack on a single enemy vehicle. Move the infantry unit up to within 5\" of the target then roll a D6 on the Lunge Mine table.\n\nLunge Mine Table\nd6\tResult\n1\tHeavy Casualties: Remove 1d3 attacking infantry; no dmg to target vehicle\n2-4\tCasualty: Remove 1 infantry; no dmg to target vehicle\n5\tSuccess - Side Armor: single Penetration 8 attack on target Side armor; remove the user as a casaulty; do not take a morale test for this loss\n6\tSuccess - Rear Armor: single Penetration 8 attack on target Rear armor; remove the user as a casaulty; do not take a morale test for this loss",
+        "hidden": false
+      },
+      {
+        "name": "Nikaku",
+        "id": "dee1-bd44-e0ab-92dd",
+        "description": "Suicide troops who have volunteered to die gloriously with great honour. If a unit with the Nikaku special rule is destroyed, do not take a BR counter for their loss.",
+        "hidden": false
+      },
+      {
+        "name": "'Banzai!'",
+        "id": "b435-c97f-3d3b-24d7",
+        "description": "All Japanese battlegroups have the 'Banzai!' special rule. Banzai! is a last desperate tactic, to charge the enemy with bayonets and grenades in a close assault. In order to conduct a Banzai! attack the Japanese player must first fulfil two criteria:\n\n1. His Battlegroup must have been reduced to less than 25% of its starting BR total. Bazai! can only be used if the Japanese fear they may lose the battle.\n2. He must play a 'Banzai!' BR counter he has previously drawn. This is played at the start of his turn, before any command and control dice are rolled.\n\nOnce the 'Banzai!' counter is played and 'Banzai!' declared, the following special rules immediately come into affect:\n\nSuicidal Bravery - The Japanese player rolls a D3 and immediately returns that many BR counters from his pile to the pot. They can be any counters he wishes, but generally they will be the highest value ones.\n\nUnpinning - Upon declaring Banzai!, D6 pinned markers are immediately removed. These can be from any Japanese units. This unpinning does not require a battle rating counter to be taken.\n\nCommand and Control - The Japanese commander rolls an extra D6 in this turn's Command and Control phase and adds the result to his normal score. This only occurs in the first turn that 'Banzai!' is declared, after which command and control returns to normal.\n\nCharge! - In each turn, and for the rest of the game, all Japanese infantry units* must be given the 'Top Speed' or 'Infantry Close Assault' order before any other orders are given. All movement must be made towards an enemy unit. If an infantry starts its turn within 10\" of an enemy infantry unit, it must be given the Infantry Close Assault order and it must attempt to close-assault the closest enemy infantry unit.\n*Infantry Units: These do not include the following support weapons: medium mgs, deployed guns, or mortar crews. These units may choose not to be affected by the 'Banzai!' Charge! rule and continue to fight as normal. The crew may, if the commander so wishes, abandon their weapons and charge with the others. All other infantry units, including senior officer, comms relay teams, light mortar teams, light mg teams, etc. must comply with the Charge! rule.\n\nNo Retreat - No Japanese unit may use the 'Fall Back!' special rule after 'Banzai!' has been declared.\n\nThe 'Glory of the Emperor' rule does not apply to 'Banzai!' counters.",
+        "hidden": false
+      },
+      {
+        "name": "'Glory of the Emperor'",
+        "id": "c267-c103-8d1c-c22a",
+        "description": "A japanese player may use any special counter he draws (be it an Air Attack, Ammo Low, Booby Trap, or Breakdown, but not Banzai!) as a 'Beyond the Call of Duty' counter as well as for its original purpose.\n\nResolve a counter's main purpose then also resolve an extra 'Beyond the Call of Duty' test for a single Japanese unit. See the main rules for the 'Beyond the Call of Duty' rules.",
+        "hidden": false
+      },
+      {
+        "name": "Horu",
+        "id": "7eae-9f69-4762-1f02",
+        "description": "Before any game, a Japanese battlegroup can always choose to be the Defender in an Attack/Defense scenario rather than be the Attacker or play a Meeting Engagement scenario. The choice is up to the Japanese player.",
+        "hidden": false
+      },
+      {
+        "name": "Multiple Mortar Squads",
+        "id": "3c02-e21d-3ec5-a3eb",
+        "description": "The Japanese Type 89 light mortar was fielded in small batteries, for maximum impact in support of their infantry platoon. A unit with multiple light mortars rolls once per mortar for Suppressing Fire with High Explosives, as very light HE.\n\nFor Aimed Fire with High Explosives, roll to hit for each of the squad's mortars as normal, with each hit doing 3/5+ damage to the target unit. Count all the hits as a single hit for Morale purposes.\n\nFor Aimed Fire with AP, roll to hit for each mortar of the squad's mortars as normal, with each bomb having an AP value of 1.",
+        "hidden": false
+      },
+      {
+        "name": "Well Concealed",
+        "id": "cd5d-2f5f-9683-a4ad",
+        "description": "The Japanese have disguised all their positions very well. All Defenses, and any Japanese units in them, have an additional -1 to being Spotted for Aimed Fire for the entire game. This modifier is lost if a unit moves out of the defenses.",
+        "hidden": false
+      },
+      {
+        "name": "Light Machine Gun Dug-Out",
+        "id": "1e75-e528-c0f8-8f92",
+        "description": "2 men and a Type 96 LMG in reinforced cover. The cover is lost if the LMG team moves.",
+        "hidden": false
+      },
+      {
+        "name": "Heavy Machine Gun Dug-Out",
+        "id": "935e-9103-8e45-6b5e",
+        "description": "3 men and a tripod Type 92 HMG in reinforced cover. The cover is lost if the HMG team moves.",
+        "hidden": false
+      },
+      {
+        "name": "Machine Gun Bunker",
+        "id": "7b32-4ca7-220f-ccc8",
+        "description": "3 men and a tripod Type 92 HMG and a loader team, in hardened cover. The cover is lost if the MG team move.",
+        "hidden": false
+      },
+      {
+        "name": "Mortar Pit",
+        "id": "ddf7-fea2-d7a8-a775",
+        "description": "3 men and an 81mm mortar in reinforced cover. The cover is lost if the mortar team moves.",
+        "hidden": false
+      },
+      {
+        "name": "Concealed Cave Entrance",
+        "id": "688b-59ea-bc3a-6eca",
+        "description": "Before the game write down, or mark on a map, the location of the concealed cave entrance. It must be positioned in an area of terrain (jungle, rocks, etc), not in the open, but otherwise can be anywhere on the tabletop. Up to 6 infantry units can be hidden in the cave (kept in reserve off-table), and these units can emerge from the cave at the start of any Japanese turn. Place a unit within 4\" of the cave entrance and give them an order as normal. All the units do not have to emerge on the same turn.",
+        "hidden": false
+      },
+      {
+        "name": "Booby Trap Labyrinth",
+        "id": "2138-12b8-1d68-9c7f",
+        "description": "The Japanese have sown this battlefield with small, anti-infantry booby traps; single mines, grenades on trip wires, punji stakes pits, etc. Each time the Japanese player draws a BR counter with the value of 5, he may use it as a small booby trap attack instead. Play on a single enemy infantry unit that moved last turn. They take a 3/5+ HE attack as they set off a booby trap and must take a morale test if any casualties are taken. The Japanese player then discards the 5 BR counter.",
+        "hidden": false
+      },
+      {
+        "name": "Booby Trapped Terrain",
+        "id": "12b0-3086-f2ef-d1eb",
+        "description": "A chosen piece of terrain (note down which), anywhere on the table has been wired with a booby-trap bomb. The first time an enemy unit enters or uses the terrain piece as cover, roll a D6. On a 2+, the bomb detonates and the unit takes a 5/3+ HE hit. On a 1, there is a fault and the booby trap fails to go off.",
+        "hidden": false
+      },
+      {
+        "name": "Dummy Bunker",
+        "id": "007d-bb1b-73a1-907d",
+        "description": "A single bunker or casemate of any size, with nothing in it. This does not have to be revealed until an enemy infantry unit gets within 5\" of the bunker model.",
+        "hidden": false
+      },
+      {
+        "name": "Rifleman Spider Hole",
+        "id": "48da-10af-4b53-4ed0",
+        "description": "1 man with a rifle in hardened cover (2+ cover save). A single Japanese soldier, very well concealed in a small covered pit.",
+        "hidden": false
+      },
+      {"name": "LMG Spider Hole", "id": "cea4-dec2-9d5c-0fb1", "description": "1 man with a Type 96 LMG in hardened cover (2+ cover save).", "hidden": false},
+      {
+        "name": "Light Mortar Spider Hole",
+        "id": "6588-f2ba-12fa-5d66",
+        "description": "1 man with a Type 89 light mortar in hardened cover (2+ cover save)",
+        "hidden": false
+      },
+      {
+        "name": "Anti-Tank Spider Hole",
+        "id": "8e09-10fc-62a8-b7bd",
+        "description": "1 man with anti-tank grenades in hardened cover (2+ cover save)",
+        "hidden": false
+      },
+      {
+        "name": "High Ground Observation Post",
+        "id": "d4d7-def6-5c43-e315",
+        "description": "The positions your troops are holding are overlooked by high ground, held by your side. In this battle, all your mortar and artillery observers count as being Mortar/Artillery Spotter+. You also gain an extra Pre-Registered Target Point.",
+        "hidden": false
+      },
+      {
+        "name": "Tunnel Access",
+        "id": "a84a-2aaf-5970-de05",
+        "description": "A hidden trapdoor and ladder leading into tunnels. A single infantry squad or team (of any type) can be held in reserve (off-table) and emerge from the tunnel, see Hidden special rules.",
+        "hidden": false
+      },
+      {
+        "name": "Coastal 'Fortress Artillery' Casemate",
+        "id": "da94-cb85-1a23-5200",
+        "description": "A 150mmL40 naval gun behind a 'cruiser' type gun shield (3-sided turret), with a 6 crew and a 3 man loader team, in a hardened bunker (2+ cover save).",
+        "hidden": false
+      },
+      {
+        "name": "Off Shore Mines",
+        "id": "5a73-a8e4-5478-ee6b",
+        "description": "Off the coast, the sea has been heavily mined. Each time a unit takes a move, and it is beyond 10\" from the shore, the defender rolls a D6. On a 6, it hits a mine and takes a hit with a HE rating of 7/2+ and an armour penetration value of 10.",
+        "hidden": false
+      },
+      {
+        "name": "Sea Rocks/Corale Reef",
+        "id": "530a-fbd9-bc36-3f00",
+        "description": "An area, up to 10\" long, of exposed sea rocks or a coral reef. They are impassible to enemy units. Any boat that hits the rocks or coral reef takes D6 hits from the impact.",
+        "hidden": false
+      },
+      {
+        "name": "Type 10 120mm AA gun dug-out",
+        "id": "9d0f-5fe4-5b94-4364",
+        "description": "A single 120mmL45 heavy anti-aircraft gun with 6 crew and a 3 man loader team, in reinforced cover.",
+        "hidden": false
+      },
+      {
+        "name": "Type 96 25mm AA gun dug-out",
+        "id": "5665-2d7a-0277-4bfd",
+        "description": "A single-barrelled 25mm anti-aircraft gun with 3 crew and a 3 man loader team, in reinforced cover.",
+        "hidden": false
+      },
+      {
+        "name": "Mined Barbed Wire",
+        "id": "663b-b572-dcf1-0f8d",
+        "description": "Up to 20\" of barbed wire. It is an obstacle for vehicles and infantry. Roll a dice for any unit crossing it; on a 5+, they set off a mine with a HE rating of 7/2+ and an AP rating of 10.",
+        "hidden": false
+      },
+      {
+        "name": "Soft Sand",
+        "id": "5c4b-690d-cd8f-794a",
+        "description": "An area of beach, up to 10\" x 10\", with wet that will not support the weight of armoured vehicles. Any armoured vehicle that moves over this area must roll a D6. On a 4+, it becomes immobilised.",
+        "hidden": false
+      },
+      {
+        "name": "Sea Cliffs",
+        "id": "9459-1747-b6b8-0352",
+        "description": "Up to 20\" of sea cliffs. These are impassable to all units, except for infantry units with grapnels or in transports equipped with grapnels or ladders.",
+        "hidden": false
+      },
+      {"name": "Reinforced Trenches", "id": "b5f9-0bfa-9ea1-06e2", "description": "Up to 10\" of trenches which count as hardened cover.", "hidden": false}
+    ]
+  }
+}
