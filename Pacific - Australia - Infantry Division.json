@@ -1,0 +1,2320 @@
+{
+  "catalogue": {
+    "name": "Pacific - Australia - Infantry Division",
+    "id": "4e72-f40f-5d94-3439",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "0a75-76ce-f956-7a9d",
+    "gameSystemRevision": 7,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "Library - UK Commonwealth", "id": "d740-d28d-a53e-1241", "importRootEntries": true, "targetId": "d37c-95d7-58c7-fe89", "type": "catalogue"},
+      {"name": "Library - America", "id": "99c8-65ad-a225-312a", "importRootEntries": true, "targetId": "975f-5810-bd11-08be", "type": "catalogue"},
+      {"name": "Library - Pacific - UK", "id": "1453-3beb-843f-f917", "importRootEntries": true, "targetId": "367b-59f4-08e6-a957", "type": "catalogue"}
+    ],
+    "entryLinks": [
+      {
+        "name": "Wire Team",
+        "id": "eff1-335b-4939-c48f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d6ec-4ef8-a2c2-e7eb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Amphibious Assault",
+        "id": "f4d4-e8f5-6c02-5fe7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e71d-5ce9-fbd8-a5b0",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Air Interdiction",
+        "id": "973a-99e6-98b3-e839",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1056-ed8a-a755-ab93",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "AT Gun Dug-out",
+        "id": "13de-7c4a-1a5d-4622",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8542-b570-5b82-9018",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Comms Relay Team",
+        "id": "9192-fee7-9103-6d38",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "67de-49d7-33a4-78c0",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Forward Air Controller",
+        "id": "4b60-22fa-d47a-1f37",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "eacf-5c2d-5b85-1bf7",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Forward Headquarters",
+        "id": "fa6b-9dfd-0f4d-d172",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6916-e62e-70d8-9f53",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Forward Observer Team",
+        "id": "329b-3602-8b92-0988",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4eb1-e4f5-809d-1f96",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Forward Signals Unit",
+        "id": "0367-2c94-a99f-8ffa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b81e-f128-0cce-5909",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy Mortar Team",
+        "id": "caba-3e47-554c-fb9a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1282-9b48-92e7-859b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "High Ground Observation Post",
+        "id": "02df-89ff-bf96-a5a8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "be6e-461d-f59c-029e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "HQ Protection Team",
+        "id": "39b1-acbb-5913-557c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0d34-ae75-044c-5538",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Off-Table Artillery Fire",
+        "id": "599e-acd5-d133-61e7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "1b49-d16d-9468-4240",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Off-Table Mortar Fire",
+        "id": "ba0d-b4e7-6e93-e152",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2d0a-f8dc-37e1-6e79",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Anti-Tank Ditch/Embankment",
+        "id": "4f9b-8c90-1be3-26cf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "35f2-c5d8-ea6c-29c4",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Artillery Observation Post",
+        "id": "6a1e-2bd5-d2ef-26ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d136-6dd4-3943-cd6b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Barbed Wire",
+        "id": "aa7c-33fa-e304-de0f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a09e-bf6c-e1e7-0597",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Foxholes",
+        "id": "72e3-280b-5197-e430",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ffc4-eff4-8b72-0f78",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Fortified Building",
+        "id": "a7e5-0db0-780e-1834",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f53d-a484-55b7-3ef1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Command Bunker",
+        "id": "c839-8eef-c1e9-52fe",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fbc5-ac58-3621-2514",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Booby-Trapped Building",
+        "id": "f0d1-55c6-dc56-274f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "01cb-cc50-f120-acfc",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Improvised Barricades",
+        "id": "697d-8bfa-b0fc-24dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f4c9-0884-0ed3-c45a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Mortar Pit",
+        "id": "50c5-e50b-0843-4744",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "612a-eb4a-2765-7f74",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Minefield",
+        "id": "fd77-376b-503e-ca4d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d8e0-514c-5b53-b63f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Improvised Road Block",
+        "id": "23fc-91e1-2005-553d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ef14-f593-34a1-c31c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sniper Hideout",
+        "id": "12e1-244c-850a-492b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "db7a-2fcf-4f42-e5eb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Vickers Machine Gun Dug-out",
+        "id": "e780-cc0f-9bdf-6a0e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "039d-0cdb-5777-a3a7",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Trenches",
+        "id": "4fc8-bea0-1158-3aa8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c5c4-b617-f19c-4d89",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy AA Gun",
+        "id": "1d81-583e-7dc9-8bbd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "15d5-5a34-d115-4baf",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy MG Section",
+        "id": "9fc5-b589-b1e1-fd45",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "53fb-438a-c2bc-4b8b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Landing Craft",
+        "id": "7bd0-3184-9441-b319",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b7f5-4eba-67fd-718b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Towed Anti-Aircraft Gun",
+        "id": "b655-8a6b-7bda-6902",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b6d7-da92-0994-ec41",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "'Tiger' Patrol",
+        "id": "2ba3-7fbb-8ecd-ce42",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4659-bb4b-293c-11b6",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Aerial Reconnaissance",
+        "id": "b358-1763-0323-4ea8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7ae8-9dea-5b59-d527",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Carrier Patrol",
+        "id": "fe0c-32ec-7532-ed24",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bf2a-a725-97d2-d6b3",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Jeep Patrol",
+        "id": "d1cf-080c-0271-4b1d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8d19-759f-c599-12a4",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Recon Platoon Command",
+        "id": "4f5c-c641-d1cc-c67c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "604a-0f99-bf55-94ef",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Sniper",
+        "id": "5760-b637-ddbb-3a8b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2287-789c-608c-5f5c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Combat Engineer Section",
+        "id": "1d23-05e7-ca49-83c0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7e32-1135-3cab-bb33",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Heavy Bridging Unit",
+        "id": "9bcf-9c99-44c3-19cf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d175-8aca-2351-498b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ambulance",
+        "id": "9104-7fb9-7e41-0294",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e459-00f9-d160-a853",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Forward Aid Post",
+        "id": "e0af-32f9-5328-9f35",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3a1b-fb51-3e5c-e1e9",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Stretcher Party",
+        "id": "ad4c-8f1c-1f0b-8d41",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7b93-efc1-1283-4670",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Transport Column",
+        "id": "81d3-d36b-dde0-3a61",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4c12-545d-8606-2019",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Counter-Battery Fire Mission",
+        "id": "d3ba-8ef0-da71-14b8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "780b-f715-bca5-2c40",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Off-Table Artillery Support Request",
+        "id": "7f45-021c-10e1-13ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9935-0980-f9c7-05d8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Pre-Registered Target Point",
+        "id": "5b12-50d3-f7fa-962b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "49fc-ad01-f12c-63f6",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Timed 25pdr Barrage",
+        "id": "aa7c-f7c8-7212-9f45",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "44da-ac93-2a8f-a46e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Timed 4.5\" Barrage",
+        "id": "de86-cba6-56d6-8be1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "2566-019a-0908-a975",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Timed Beaufighter Air Strike",
+        "id": "7ad0-2a1c-8b12-fbb0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "636a-f6b4-6e71-d9eb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Timed Hurribomber Air Strike",
+        "id": "8087-dad8-afa0-e4c1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "321a-4b7f-fa37-1cfb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Carrier Section",
+        "id": "10d9-b5ac-3335-d467",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "8514-be68-0091-1e59",
+        "type": "selectionEntry"
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "RAAF Close Air Support Table, Pacific 1944-45",
+        "id": "54ca-8c6d-55ba-6a95",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e022-1ab8-5476-3fb6", "hidden": false, "primary": true, "targetId": "19bc-5687-3b84-3d6c"}],
+        "constraints": [
+          {
+            "id": "b783-2ec7-7ebb-d751",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "dbd6-6b16-b5e6-bfdf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "RAAF Close Air Support Table, Pacific 1944-45", "id": "89e8-0ef6-3b4e-33f2", "hidden": false, "targetId": "6cef-e453-a561-0dd0", "type": "infoGroup"}
+        ],
+        "modifiers": [
+          {
+            "field": "b783-2ec7-7ebb-d751",
+            "type": "decrement",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "f0df-851f-3464-fe01",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Australian Rifle Section",
+        "id": "6e77-454c-4a2c-9e14",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5c46-9068-1f21-d53b", "hidden": false, "primary": true, "targetId": "a529-162f-ec0b-e961"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 21},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 2},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 10},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Australian Rifle Section", "id": "ecc7-4b2b-20bc-eed0", "hidden": false, "targetId": "52a5-e620-9843-b387", "type": "profile"},
+          {"name": ".303 Bren Mk.II (Light MG)", "id": "495c-ea5b-d896-a894", "hidden": false, "targetId": "b02f-7757-91be-4e72", "type": "profile"},
+          {"name": "Bren Team", "id": "5329-b482-4528-428f", "hidden": false, "targetId": "27b7-7ac9-e17c-2e29", "type": "rule"},
+          {"name": "Experience - Regular", "id": "1c33-c213-4015-f138", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"},
+          {"name": "Basic Infantry Small Arms", "id": "0a66-6ef4-ab3a-c2bb", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"}
+        ]
+      },
+      {
+        "name": "Tank",
+        "id": "af4e-7b73-06f2-a3dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a194-b3b1-577f-507f", "hidden": false, "primary": true, "targetId": "4226-01bf-f07d-976e"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Tank",
+            "id": "290e-8c5f-51fc-3238",
+            "collective": false,
+            "defaultSelectionEntryId": "7e49-6fb3-ecd7-b2fa",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "319a-f5f8-e8f0-9ecc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "47d8-8305-f367-b82c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Matilda II",
+                "id": "7e49-6fb3-ecd7-b2fa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 30},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 3},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Matilda II", "id": "754c-409e-4e36-7406", "hidden": false, "targetId": "b6f0-82bf-67f7-e688", "type": "profile"},
+                  {"name": "QF 2-pdr, Turret", "id": "1fec-c409-ce3d-8ce4", "hidden": false, "targetId": "15f1-8c08-fe3a-1686", "type": "profile"},
+                  {"name": "Vehicle MG - Co-axial", "id": "226c-8697-d5d6-8973", "hidden": false, "targetId": "67cd-6c41-2e6f-6c13", "type": "profile"},
+                  {"name": "Experience - Regular", "id": "71f9-bf13-7099-0417", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"}
+                ]
+              },
+              {
+                "name": "Matilda II CS",
+                "id": "7ecc-6642-00dc-e157",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 26},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 3},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Matilda II CS", "id": "7aef-6579-353a-33d2", "hidden": false, "targetId": "ed4b-7bb0-8edc-5ae7", "type": "profile"},
+                  {"name": "3-inch Gun M7", "id": "c3d1-e344-7fa4-6ab0", "hidden": false, "targetId": "5256-e803-e7f8-2177", "type": "profile"},
+                  {"name": "Vehicle MG - Co-axial", "id": "8a93-fe8d-0537-dfc0", "hidden": false, "targetId": "67cd-6c41-2e6f-6c13", "type": "profile"},
+                  {"name": "Experience - Regular", "id": "39e5-296e-67a4-b2eb", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Towed Artillery Gun",
+        "id": "1ec8-5f9d-2d9f-8573",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8410-a509-5c58-ece9", "hidden": false, "primary": true, "targetId": "3513-6f08-58bc-2d59"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Artillery Gun",
+            "id": "ede9-d68e-5f6e-922f",
+            "collective": false,
+            "defaultSelectionEntryId": "c0b6-52fa-4b7a-dd2c",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "9580-1827-114c-82f7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "8d60-4d39-8ec3-61f2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3.7\" mountain howitzer",
+                "id": "a90a-7cf1-6f49-b136",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 34},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 2},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "3.7-inch Howitzer", "id": "aef4-c22b-83fd-a255", "hidden": false, "targetId": "408f-962b-932d-0a03", "type": "profile"},
+                  {"name": "Artillery Gun Crew [Medium]", "id": "91b5-979a-0b4a-3160", "hidden": false, "targetId": "0650-7f4c-eadf-3db1", "type": "profile"},
+                  {"name": "Experience - Regular", "id": "8f18-a844-d496-b556", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Loader Team",
+                    "id": "019a-8211-2240-3989",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "b166-ac96-0ee5-0956",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 10},
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Loader Team", "id": "0a08-7f08-d84d-d2c0", "hidden": false, "targetId": "f9fc-eaf5-5f58-f4bd", "type": "rule"},
+                      {"name": "Loader Team", "id": "4cf2-ffd0-0b73-70e5", "hidden": false, "targetId": "97de-c016-3c90-8dfb", "type": "profile"}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Transport",
+                    "id": "1da5-6467-8b53-1d0b",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "4648-dbca-8cd2-88b8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Jeep",
+                        "id": "71fe-f688-3601-54f0",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 2},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "Jeep [Willys MB, Ford GPW]", "id": "a851-b012-bc32-d691", "hidden": false, "targetId": "e54e-3cb7-23b8-44df", "type": "profile"}]
+                      },
+                      {
+                        "name": "Bren Carrier",
+                        "id": "5a3d-2b43-db2b-fe52",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 4},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "Bren Carrier", "id": "c88a-1aa8-de2f-2ffb", "hidden": false, "targetId": "b240-7a45-7c29-6c1b", "type": "profile"}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "25 pdr 'short' field gun",
+                "id": "c0b6-52fa-4b7a-dd2c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 36},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 2},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "QF 25-pdr Mk.II Field Gun", "id": "63aa-67b4-af24-cfd7", "hidden": false, "targetId": "a685-473c-80a8-6a46", "type": "profile"},
+                  {"name": "Jeep [Willys MB, Ford GPW]", "id": "0a68-7a59-b02e-98fc", "hidden": false, "targetId": "e54e-3cb7-23b8-44df", "type": "profile"},
+                  {"name": "Artillery Gun Crew [Medium]", "id": "0acb-3da6-aeb3-7d5c", "hidden": false, "targetId": "0650-7f4c-eadf-3db1", "type": "profile"},
+                  {"name": "Experience - Regular", "id": "0b3c-ba27-26ad-6a74", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Australian Infantry Platoon",
+        "id": "ac90-6f75-5d23-2a9c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1435-81b1-6f5b-42c4", "hidden": false, "primary": true, "targetId": "a529-162f-ec0b-e961"},
+          {"name": "Infantry +3", "id": "afb7-bdc4-c661-bd50", "hidden": false, "primary": false, "targetId": "14cb-9885-1510-86f6"},
+          {"name": "Infantry Platoon", "id": "0a85-b3c7-4b62-9f93", "hidden": false, "primary": false, "targetId": "0055-da48-3331-dde7"}
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 94},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 11},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Platoon Command Section",
+            "id": "a7f8-7b6d-a17a-c174",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "5190-9839-976b-94fc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1c7a-7547-6d89-fbae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 1},
+              {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 5},
+              {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+              {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+              {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+            ],
+            "infoLinks": [
+              {"name": "Experience - Regular", "id": "3773-b8b0-deba-5d21", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"},
+              {"name": "Basic Infantry Small Arms", "id": "ee3a-286d-3555-cfc4", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"},
+              {"name": "Officer", "id": "5f8a-247d-e2fb-ab7f", "hidden": false, "targetId": "6fce-6bdd-4a46-f6da", "type": "rule"},
+              {"name": "Mortar Spotter", "id": "6002-77af-0753-eab3", "hidden": false, "targetId": "9031-a725-1c93-3f1d", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Platoon Command Section",
+                "id": "a3c2-9435-a2a0-e294",
+                "hidden": false,
+                "typeId": "1b37-2675-2a04-215e",
+                "typeName": "Infantry Team",
+                "characteristics": [
+                  {"name": "Unit Composition", "$text": "5 Men", "typeId": "c321-2ee9-f9a5-5ad5"},
+                  {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+                  {"name": "Special Rules", "typeId": "7388-c72e-b747-11b2"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rifle Section",
+            "id": "1852-a5f7-07dd-ba7d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "5b88-a1ed-334e-24a0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 3
+              },
+              {
+                "id": "a737-19a0-67fc-f849",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "costs": [
+              {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 10},
+              {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+              {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+              {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+              {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+            ],
+            "infoLinks": [
+              {"name": "Experience - Regular", "id": "9651-f99a-f982-7480", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"},
+              {"name": "Basic Infantry Small Arms", "id": "5940-e647-c0a1-71a5", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"},
+              {"name": "Australian Rifle Section", "id": "82c4-3700-1d0d-98a8", "hidden": false, "targetId": "52a5-e620-9843-b387", "type": "profile"},
+              {"name": "Bren Team", "id": "e40e-ad58-0902-0284", "hidden": false, "targetId": "27b7-7ac9-e17c-2e29", "type": "rule"},
+              {"name": ".303 Bren Mk.II (Light MG)", "id": "7b24-54de-132b-c98f", "hidden": false, "targetId": "b02f-7757-91be-4e72", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Light Mortar team",
+            "id": "7fbb-edff-d9eb-5465",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "3bf2-27c3-44a9-9ffb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "a28f-0293-51c1-7fde",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 2},
+              {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+              {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+              {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+              {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+            ],
+            "infoLinks": [
+              {"name": "Mortar Team [Light]", "id": "fb5c-afef-9326-a939", "hidden": false, "targetId": "2c64-83f3-2084-71b0", "type": "profile"},
+              {"name": "SBML 2-inch Light Mortar", "id": "baa9-724c-e61f-a306", "hidden": false, "targetId": "4e62-1cc3-1769-441f", "type": "profile"},
+              {"name": "Basic Infantry Small Arms", "id": "d264-9bbd-2d04-2415", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"},
+              {"name": "Experience - Regular", "id": "dd14-2b4d-c17a-82b0", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Platoon Support Options",
+            "id": "3bdf-6ed3-7c1c-29c0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "24e0-db7d-e09a-58a9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 4
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Combat Medic",
+                "id": "248e-489b-a48d-15ee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "683a-48b6-20d0-4572",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 8},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 1},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Medic", "id": "66da-52cf-9a4f-59ab", "hidden": false, "targetId": "eb76-f1f1-bfc5-0a95", "type": "rule"},
+                  {"name": "Combat Medic", "id": "fca5-3b42-d530-781c", "hidden": false, "targetId": "9483-fb35-75d5-78b3", "type": "profile"}
+                ]
+              },
+              {
+                "name": "Heavy Machine Gun team",
+                "id": "9404-7709-4d4d-04df",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "7eb8-47bf-463c-033d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 22},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 1},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": ".303 Vickers Gun (Heavy MG)", "id": "9bc3-18b1-cd36-3a6b", "hidden": false, "targetId": "97e9-ae30-beac-2b99", "type": "profile"},
+                  {"name": "Machine Gun Team [Heavy]", "id": "f51e-87c9-b4cb-823a", "hidden": false, "targetId": "e181-8234-f623-6a7b", "type": "profile"},
+                  {"name": "Basic Infantry Small Arms", "id": "3ab3-36b1-8f52-734a", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Bren Carrier",
+                    "id": "31a7-1b0f-1611-2643",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "1705-86c6-31f2-ed44",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 8},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [{"name": "Bren Carrier", "id": "06b3-1cc0-c417-7ecc", "hidden": false, "targetId": "b240-7a45-7c29-6c1b", "type": "profile"}]
+                  },
+                  {
+                    "name": "Loader Team",
+                    "id": "1a4b-d262-3269-e1fd",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "c243-9354-cb10-5559",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 10},
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Loader Team", "id": "e666-1b6c-0b8c-2b7a", "hidden": false, "targetId": "97de-c016-3c90-8dfb", "type": "profile"},
+                      {"name": "Loader Team", "id": "636f-c33e-5144-40ee", "hidden": false, "targetId": "f9fc-eaf5-5f58-f4bd", "type": "rule"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AT team",
+                "id": "3adc-d557-1c2c-cb6a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "2a21-36fd-d498-297a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "bf22-cd52-8612-62c3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 12},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 1},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 2},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "AT team", "id": "7444-c18f-9ddc-cffb", "hidden": false, "targetId": "d070-8523-4265-f0d0", "type": "profile"},
+                  {"name": "Unique", "id": "eda9-32a2-ef65-0791", "hidden": false, "targetId": "c2e8-0f62-4a80-1a76", "type": "rule"},
+                  {"name": "Basic Infantry Small Arms", "id": "56cf-ba57-d765-9455", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"}
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapon",
+                    "id": "cab2-8e4e-b186-0ef7",
+                    "collective": false,
+                    "defaultSelectionEntryId": "ff20-2ed0-cbbf-7481",
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "0453-b3df-29aa-1df7",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "a930-5fbc-89c7-51c0",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Boyes AT Rifle",
+                        "id": "ddfa-f910-9ddf-40dc",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "Boyes AT Rifle", "id": "7f50-81e7-5198-2a0e", "hidden": false, "targetId": "36da-737e-45eb-3d4d", "type": "profile"}]
+                      },
+                      {
+                        "name": "PIAT Rocket Launcher",
+                        "id": "ff20-2ed0-cbbf-7481",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 6},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "PIAT", "id": "3361-733e-9cf6-e902", "hidden": false, "targetId": "7aed-91d4-1e06-bfc1", "type": "profile"}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Anti-tank Gun",
+                "id": "2ef3-921a-050c-76d7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "d92c-1874-5f43-cb59",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "66ba-6cf4-467b-414d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 19},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 2},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Anti-Tank Gun Crew [V.Light]", "id": "0f0e-98af-dfe4-8469", "hidden": false, "targetId": "f184-73c7-f1e0-6019", "type": "profile"},
+                  {"name": "Unique", "id": "86ba-86f3-32ff-4a7d", "hidden": false, "targetId": "c2e8-0f62-4a80-1a76", "type": "rule"},
+                  {"name": "Basic Infantry Small Arms", "id": "8950-7fec-592e-4f02", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Loader Team",
+                    "id": "66d8-881f-43b8-2b17",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "618f-6a8b-958b-1408",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 10},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Loader Team", "id": "2b6e-7f57-a3f3-210e", "hidden": false, "targetId": "97de-c016-3c90-8dfb", "type": "profile"},
+                      {"name": "Loader Team", "id": "ef40-1b52-bfef-9ed5", "hidden": false, "targetId": "f9fc-eaf5-5f58-f4bd", "type": "rule"}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapon",
+                    "id": "a9ec-ffb0-e605-9827",
+                    "collective": false,
+                    "defaultSelectionEntryId": "c038-d700-c671-14c1",
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "c595-035c-65ed-07be",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      },
+                      {
+                        "id": "b441-924c-dae9-d372",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "2pdr Gun",
+                        "id": "f24c-f1c4-5b17-7543",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "QF 2-pdr, Turret", "id": "5529-8cae-5bef-0f4c", "hidden": false, "targetId": "15f1-8c08-fe3a-1686", "type": "profile"}]
+                      },
+                      {
+                        "name": "6pdr Gun",
+                        "id": "c038-d700-c671-14c1",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 15},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "QF 6-pdr (57mm/L46), Turret", "id": "62d0-b597-c2e1-f7e1", "hidden": false, "targetId": "b9e1-5c23-7c0b-c7de", "type": "profile"}]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Transport",
+                    "id": "0f8c-4637-241c-b3b4",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "constraints": [
+                      {
+                        "id": "5077-84d2-2267-1c68",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "selectionEntries": [
+                      {
+                        "name": "Carrier",
+                        "id": "cd30-a513-6e93-b2e8",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 6},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "Loyd Carrier", "id": "d2f9-349a-0da4-1b84", "hidden": false, "targetId": "4753-36be-3143-ff07", "type": "profile"}]
+                      },
+                      {
+                        "name": "Morris Truck",
+                        "id": "31a4-c8cb-f40c-2513",
+                        "collective": false,
+                        "hidden": false,
+                        "import": true,
+                        "type": "upgrade",
+                        "costs": [
+                          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 2},
+                          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                        ],
+                        "infoLinks": [{"name": "Morris C8 Quad", "id": "bf68-4d6f-e336-a176", "hidden": false, "targetId": "f65d-ddf4-58af-fd3f", "type": "profile"}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medium Mortar team",
+                "id": "374e-1576-95e5-cac3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "8623-cf8b-1d28-f525",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 24},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 1},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Mortar Team [Medium]", "id": "2727-12ce-5120-45a4", "hidden": false, "targetId": "b154-d174-97ab-f75f", "type": "profile"},
+                  {"name": "ML 3-inch Medium Mortar", "id": "d014-9f46-1c85-bd17", "hidden": false, "targetId": "2000-6598-77e4-1cb4", "type": "profile"},
+                  {"name": "Direct Lay", "id": "321e-d005-f867-4d6e", "hidden": false, "targetId": "9b69-fe9a-cac3-37b2", "type": "rule"},
+                  {"name": "Basic Infantry Small Arms", "id": "0ef9-641c-4481-d9de", "hidden": false, "targetId": "976a-c6cd-37ef-d755", "type": "infoGroup"}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Loader Team",
+                    "id": "ccba-5e59-f915-e91d",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "44f0-9c32-fe80-afa5",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 10},
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 3},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Loader Team", "id": "e9c1-2069-de31-af2e", "hidden": false, "targetId": "97de-c016-3c90-8dfb", "type": "profile"},
+                      {"name": "Loader Team", "id": "e299-4077-6d69-fccb", "hidden": false, "targetId": "f9fc-eaf5-5f58-f4bd", "type": "rule"}
+                    ]
+                  },
+                  {
+                    "name": "Bren Carrier",
+                    "id": "3fec-aa9c-056a-d806",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "5e96-f7c7-2c03-67c9",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 8},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [{"name": "Bren Carrier", "id": "7dfd-770d-a374-7dcc", "hidden": false, "targetId": "b240-7a45-7c29-6c1b", "type": "profile"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armoured Car",
+        "id": "92c5-9921-c785-9999",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2606-bbef-91cb-8e42", "hidden": false, "primary": true, "targetId": "dad0-bf03-c4c8-2ee5"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 1}
+        ],
+        "entryLinks": [
+          {
+            "name": "Reconnaissance Support Choice",
+            "id": "c862-2968-f491-4309",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9f01-f622-158f-8b1c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armoured Car",
+            "id": "f08d-9484-fc5f-22d8",
+            "collective": false,
+            "defaultSelectionEntryId": "b883-d7bc-3e54-aa1a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "dd61-c659-8a22-53c6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "54f5-915d-e839-2f26",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Dingo",
+                "id": "b883-d7bc-3e54-aa1a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 11},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 1},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Daimler Dingo", "id": "6820-dd89-1967-8324", "hidden": false, "targetId": "49ee-b383-2418-526f", "type": "profile"},
+                  {"name": "Vehicle LMG - Hull", "id": "3568-21ff-f36f-3fde", "hidden": false, "targetId": "c2d6-4336-1757-c519", "type": "profile"},
+                  {"name": "Scout", "id": "cfb7-dc90-5a69-8c05", "hidden": false, "targetId": "d3dc-e766-4136-b3ad", "type": "rule"},
+                  {"name": "Mortar Spotter", "id": "138c-b577-fd28-149d", "hidden": false, "targetId": "9031-a725-1c93-3f1d", "type": "rule"}
+                ]
+              },
+              {
+                "name": "Staghound",
+                "id": "5afe-fe31-c500-48a7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 30},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 1},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Mortar Spotter", "id": "c7c9-d712-36d7-0a54", "hidden": false, "targetId": "9031-a725-1c93-3f1d", "type": "rule"},
+                  {"name": "Scout", "id": "af60-7243-fe53-381a", "hidden": false, "targetId": "d3dc-e766-4136-b3ad", "type": "rule"},
+                  {"name": "Staghound", "id": "3a43-c467-f7fe-38c5", "hidden": false, "targetId": "55b6-40fc-92ad-cc73", "type": "profile"},
+                  {"name": "37mm/L53, Turret", "id": "4055-15be-942e-10f2", "hidden": false, "targetId": "6e43-f06f-4ca5-6e50", "type": "profile"},
+                  {"name": "Vehicle MG - Co-axial", "id": "0002-d688-a20b-6f4d", "hidden": false, "targetId": "67cd-6c41-2e6f-6c13", "type": "profile"},
+                  {"name": "Vehicle MG - Bow", "id": "7c17-04a9-a8f9-07fe", "hidden": false, "targetId": "1862-f580-ea92-9de8", "type": "profile"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M3 Honey",
+        "id": "26d9-ec4c-6690-ad8f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "cde9-1949-656d-2333", "hidden": false, "primary": true, "targetId": "dad0-bf03-c4c8-2ee5"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 1}
+        ],
+        "entryLinks": [
+          {
+            "name": "Reconnaissance Support Choice",
+            "id": "2e67-65f0-3d31-fb44",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9f01-f622-158f-8b1c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "M3 Honey", "id": "7c65-7fd4-b7ac-b96d", "hidden": false, "targetId": "8a6b-3a22-b276-09e2", "type": "profile"},
+          {"name": "37mm/L53, Turret", "id": "b172-220f-ce29-da65", "hidden": false, "targetId": "6e43-f06f-4ca5-6e50", "type": "profile"},
+          {"name": "Vehicle MG - Bow", "id": "7c6f-a78a-5cde-5221", "hidden": false, "targetId": "1862-f580-ea92-9de8", "type": "profile"},
+          {"name": "Vehicle MG - Co-axial", "id": "bbaa-fb12-202a-abae", "hidden": false, "targetId": "67cd-6c41-2e6f-6c13", "type": "profile"},
+          {"name": "Experience - Regular", "id": "c1e5-591b-6a90-e0b8", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"},
+          {"name": "Mortar Spotter", "id": "401d-3149-c105-972c", "hidden": false, "targetId": "9031-a725-1c93-3f1d", "type": "rule"},
+          {"name": "Scout", "id": "e555-5715-4be9-ad95", "hidden": false, "targetId": "d3dc-e766-4136-b3ad", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Armoured Engineering Vehicle",
+        "id": "b22e-3161-cbf2-e1ec",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "af2e-0ee6-f949-18ae", "hidden": false, "primary": true, "targetId": "7ec9-56cd-e681-87d1"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Engineer Support Choice",
+            "id": "cf96-8da2-0a58-9a22",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c652-a968-a030-244e",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armoured Engineering Vehicle",
+            "id": "35cc-8e0c-6c35-d091",
+            "collective": false,
+            "defaultSelectionEntryId": "c4ad-7790-78b3-2735",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "735d-0fd3-aade-c77a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7493-f390-8aad-7f9a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Armoured Bulldozer",
+                "id": "0c5f-f8ab-a8ed-5976",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 12},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 1},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Armoured D7 Bulldozer", "id": "403b-7106-059d-56ad", "hidden": false, "targetId": "0294-133e-4d66-e264", "type": "profile"},
+                  {"name": "Engineer", "id": "3f4a-2eda-6d9d-9ec4", "hidden": false, "targetId": "b840-357d-26ae-b902", "type": "rule"}
+                ]
+              },
+              {
+                "name": "Matilda II Dozer",
+                "id": "c4ad-7790-78b3-2735",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 35},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 3},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Matilda II Dozer", "id": "3642-a5d9-7600-833c", "hidden": false, "targetId": "ee25-a9b0-bf3f-8ec7", "type": "profile"},
+                  {"name": "QF 2-pdr, Turret", "id": "d7f5-726d-d841-032d", "hidden": true, "targetId": "15f1-8c08-fe3a-1686", "type": "profile"},
+                  {"name": "Vehicle MG - Co-axial", "id": "c0b2-2c2c-0550-8907", "hidden": false, "targetId": "67cd-6c41-2e6f-6c13", "type": "profile"}
+                ]
+              },
+              {
+                "name": "Matilda II 'Frog' flamethrower",
+                "id": "10af-1bfa-bb0e-38e5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "1bda-291b-3c6e-1c44",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 38},
+                  {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 3},
+                  {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                  {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                  {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                ],
+                "infoLinks": [
+                  {"name": "Unique", "id": "a660-b5ec-f4da-1ebb", "hidden": false, "targetId": "c2e8-0f62-4a80-1a76", "type": "rule"},
+                  {"name": "Matilda II 'Frog'", "id": "ffbc-e54a-5437-6e55", "hidden": false, "targetId": "0899-e407-9d05-fc2b", "type": "profile"},
+                  {"name": "Vehicle Flamethrower, Turret", "id": "3954-b49f-0335-394b", "hidden": false, "targetId": "7005-efdc-7470-13cf", "type": "profile"},
+                  {"name": "Vehicle MG - Co-axial", "id": "1c79-e80f-bbf5-3a8a", "hidden": false, "targetId": "67cd-6c41-2e6f-6c13", "type": "profile"},
+                  {"name": "One Man Turret", "id": "06bd-e35a-a785-46f4", "hidden": false, "targetId": "09a2-e032-63cf-cccb", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Recovery Vehicle",
+        "id": "dc74-81f3-6d04-0903",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "aaad-f3e1-3085-9730", "hidden": false, "primary": true, "targetId": "7ec9-56cd-e681-87d1"}],
+        "constraints": [
+          {
+            "id": "d95d-4b3a-fdd6-9730",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Engineer Support Choice",
+            "id": "5909-e8a9-2e4b-a0da",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c652-a968-a030-244e",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Unique", "id": "6c34-a8f7-015d-8438", "hidden": false, "targetId": "c2e8-0f62-4a80-1a76", "type": "rule"},
+          {"name": "Scammell Pioneer", "id": "27e4-d7a0-317b-08f4", "hidden": false, "targetId": "1bc1-d300-d150-ce36", "type": "profile"},
+          {"name": "Experience - Inexperienced", "id": "d99c-d1b5-f552-a105", "hidden": false, "targetId": "21e1-a386-abc9-450b", "type": "rule"},
+          {"name": "Recovery", "id": "666c-8fbc-91e5-3893", "hidden": false, "targetId": "d03a-4344-4642-eb89", "type": "rule"},
+          {"name": "Repair", "id": "3eb3-8e82-a597-6a5f", "hidden": false, "targetId": "4adb-b1d9-30a5-3aa3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Light Bridging Unit",
+        "id": "830c-113a-d51c-2f09",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "98d0-c8e5-41d4-04dd", "hidden": false, "primary": true, "targetId": "7ec9-56cd-e681-87d1"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 18},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 2},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 6},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Engineer Support Choice",
+            "id": "fc8d-fbf0-8eea-7433",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c652-a968-a030-244e",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Experience - Regular", "id": "bc6a-739c-a30d-33bc", "hidden": false, "targetId": "fe31-8406-73c8-5be6", "type": "rule"},
+          {"name": "Bridging", "id": "b35c-7360-6172-1735", "hidden": false, "targetId": "c9ba-4fbd-cdfe-22b7", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "2 Elephants",
+            "id": "d0bf-2b5d-ba22-adc3",
+            "hidden": false,
+            "typeId": "6e73-f403-d9c9-a941",
+            "typeName": "Soft Skin Vehicle",
+            "characteristics": [
+              {"name": "Movement - Off-Road", "$text": "5", "typeId": "217e-e3a8-2912-2a45"},
+              {"name": "Movement - Road", "$text": "5", "typeId": "ace7-f938-5dbf-8054"},
+              {"name": "Hits", "$text": "1", "typeId": "a689-65f7-5e80-6f7e"},
+              {"name": "Transport Capacity", "typeId": "5e82-8684-8ca0-2ebe"},
+              {"name": "Special", "typeId": "28a2-b3e1-959f-33a8"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Supply Column",
+        "id": "d967-66a6-3a44-dfc6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5a33-ec7a-5196-77d9", "hidden": false, "primary": true, "targetId": "3b2e-4796-8c51-ab71"}],
+        "constraints": [
+          {
+            "id": "0d05-233d-d5c6-be23",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 1},
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Logistics Support Choice",
+            "id": "bea8-7ca1-4060-9026",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4d70-120d-903d-8d02",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Unique", "id": "aed8-66a0-e6d3-6a94", "hidden": false, "targetId": "c2e8-0f62-4a80-1a76", "type": "rule"}],
+        "selectionEntries": [
+          {
+            "name": "Supply Team",
+            "id": "7786-4cda-8d00-3f1d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c7c1-2579-ae38-45bb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 5
+              },
+              {
+                "id": "8904-af7b-2212-54e7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 6},
+              {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+              {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+              {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+              {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Vehicle",
+                "id": "ebd7-3666-944d-08a3",
+                "collective": false,
+                "defaultSelectionEntryId": "5022-d127-f1a6-ebf1",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "d2e8-1464-e281-8749",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "5042-1b27-e3cc-d630",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Mule Team",
+                    "id": "5022-d127-f1a6-ebf1",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Resupply", "id": "ac2f-013c-4b68-2ac6", "hidden": false, "targetId": "765d-531e-212b-6909", "type": "rule"},
+                      {"name": "Experience - Inexperienced", "id": "4d02-30db-2319-56f9", "hidden": false, "targetId": "21e1-a386-abc9-450b", "type": "rule"}
+                    ],
+                    "profiles": [
+                      {
+                        "name": "Mule Team",
+                        "id": "b26a-8936-2fbb-b46a",
+                        "hidden": false,
+                        "typeId": "1b37-2675-2a04-215e",
+                        "typeName": "Infantry Team",
+                        "characteristics": [
+                          {"name": "Unit Composition", "$text": "1 Man 2 Mules", "typeId": "c321-2ee9-f9a5-5ad5"},
+                          {"name": "Movement", "$text": "5\"", "typeId": "7f85-4e33-5dc5-18d2"},
+                          {"name": "Special Rules", "typeId": "7388-c72e-b747-11b2"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Jeep",
+                    "id": "9b29-2ba6-b7e6-f353",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [
+                      {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 2},
+                      {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+                      {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+                      {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+                      {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+                    ],
+                    "infoLinks": [
+                      {"name": "Jeep [Willys MB, Ford GPW]", "id": "85d7-c2f7-c966-5c0d", "hidden": false, "targetId": "e54e-3cb7-23b8-44df", "type": "profile"},
+                      {"name": "Experience - Inexperienced", "id": "4025-db7e-2a2c-09f8", "hidden": false, "targetId": "21e1-a386-abc9-450b", "type": "rule"},
+                      {"name": "Resupply", "id": "ba29-0872-f3d7-9b7c", "hidden": false, "targetId": "765d-531e-212b-6909", "type": "rule"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Timed Vultee A-31 Air Strike",
+        "id": "2142-5582-2dd5-e64d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2417-9d4d-5de1-c7a9", "hidden": false, "primary": true, "targetId": "0e22-12be-a43c-7b9e"}],
+        "costs": [
+          {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 20},
+          {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+          {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+          {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+          {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Additional Fire Support Choice",
+            "id": "04ff-7cad-29be-71f1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7f1c-4dd0-faef-6003",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [{"name": "Timed Airstrike", "id": "c4f3-5fb8-9872-5e6f", "hidden": false, "targetId": "3f26-26f3-280b-e6f5", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "f0df-851f-3464-fe01",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Vultee A-31 Vengeance",
+            "id": "b3da-3653-525a-cef4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "bfcf-a6eb-9624-a3ca",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "8d3a-83a7-b2bc-4260",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+              {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+              {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+              {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+              {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+            ],
+            "infoLinks": [
+              {"name": "A-31 Vengeance", "id": "5e78-463c-ccbb-6f6a", "hidden": false, "targetId": "c2af-1ebf-b4a1-f602", "type": "profile"},
+              {"name": "Large Bomb", "id": "e81e-91d0-49be-5655", "hidden": false, "targetId": "fd48-0cfb-d40f-e289", "type": "profile"},
+              {"name": "Small Bomb", "id": "cc15-9849-a6b8-07b8", "hidden": false, "targetId": "b219-ad97-a999-c681", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Pre-Registered Target Point",
+            "id": "21ab-b0c6-97b4-8d1c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c0ec-d131-b82e-e969",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "eaed-6658-e3fd-79b5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [
+              {"name": "pts", "typeId": "d842-fd8f-4744-0a94", "value": 0},
+              {"name": "BR", "typeId": "25f6-2f9f-8a1e-518d", "value": 0},
+              {"name": "Men", "typeId": "2abb-d074-7103-5ec3", "value": 0},
+              {"name": "Officers", "typeId": "2612-abd7-eb77-6a12", "value": 0},
+              {"name": "Scouts", "typeId": "30b9-666e-c128-9771", "value": 0}
+            ],
+            "infoLinks": [{"name": "Pre-Registered Target Point", "id": "de77-e28d-3b5b-22ab", "hidden": false, "targetId": "5218-aeb0-934e-ac35", "type": "rule"}]
+          }
+        ]
+      }
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "RAAF Close Air Support Table, Pacific 1944-45",
+        "id": "6cef-e453-a561-0dd0",
+        "hidden": false,
+        "infoGroups": [
+          {
+            "name": "D6 Roll : 1-3 : Vultee A-31 Vengeance",
+            "id": "d184-b3ad-8718-495a",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Vehicle MG - Bow", "id": "80fe-0a21-463d-48d1", "hidden": false, "targetId": "1862-f580-ea92-9de8", "type": "profile"},
+              {"name": "A-31 Vengeance", "id": "6500-382e-f501-ffd8", "hidden": false, "targetId": "c2af-1ebf-b4a1-f602", "type": "profile"},
+              {"name": "Small Bomb", "id": "7549-dadd-734b-5dc0", "hidden": false, "targetId": "b219-ad97-a999-c681", "type": "profile"},
+              {"name": "Large Bomb", "id": "dc1a-6237-7750-ff86", "hidden": false, "targetId": "fd48-0cfb-d40f-e289", "type": "profile"}
+            ],
+            "rules": [
+              {
+                "name": "A-31 Vengeance Fighter Armaments",
+                "id": "61de-41be-0f93-a6c9",
+                "description": "Base\n----   4x MGs\n\nRoll\n1     no bombs\n2-6  2x large bombs and 2x small bombs",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "D6 Roll : 4-5 : Hurricane MkIIc 'Hurribomber'",
+            "id": "1ce7-1fcf-0ce9-387a",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Small Bomb", "id": "a846-46e5-36b4-fc29", "hidden": false, "targetId": "b219-ad97-a999-c681", "type": "profile"},
+              {"name": "4x 20mm Cannons [Hispano Mk.II]", "id": "ca7c-b441-e314-44a8", "hidden": false, "targetId": "7241-2d10-7a89-46d0", "type": "profile"},
+              {"name": "'Hurribomber' MkIIC", "id": "3445-87fa-9e33-ab8d", "hidden": false, "targetId": "bfaa-98fc-c433-f4f6", "type": "profile"},
+              {"name": "Medium Bomb", "id": "de18-6be8-d3f1-2bb5", "hidden": false, "targetId": "53f4-2874-229c-674a", "type": "profile"}
+            ],
+            "rules": [
+              {
+                "name": "Hurricane MkIIc 'Hurribomber' Armaments",
+                "id": "6b9b-0b08-22b1-c9ee",
+                "description": "Base\n----   4x 20mm cannons\n\nRoll\n1     no bombs\n2-4  2x small bombs\n5-6  2x medium bombs",
+                "hidden": false
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Aircraft Table",
+            "id": "292c-e515-28f5-7879",
+            "description": "RAAF Close Air Support\n1-3 Vultee A-31 Vengeance\n4-5 Hurricane MkIIc 'Hurribomber'\n6    Player's Choice of Aircraft (Still roll for Armaments)\n\nYou may always choose an aircraft from lower on the table than your roll. You must still roll for armament.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}
